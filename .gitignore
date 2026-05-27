@@ -1,0 +1,90 @@
+# Compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+.hypothesis/
+
+# Jupyter
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+Thumbs.db
+
+# Local env files
+.env
+.env.*
+
+# Model artifacts and binaries
+saved_model/
+*.h5
+*.keras
+*.pt
+*.pth
+*.ckpt
+*.pb
+*.onnx
+*.npy
+
+# Dataset directory (keep README)
+data/
+!data/README
+
+# Logs and history
+logs/
+*.log
+history.csv
+history.json
+
+# Build / packaging
+build/
+dist/
+*.egg
+*.whl
