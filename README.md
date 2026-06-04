@@ -186,7 +186,7 @@ Training runs on CPU only. GPU is explicitly disabled to ensure reproducibility 
 
 ## Limitations
 
-- The **Maturing segment** (6–50 interactions) collapses to NDCG@10 = 0.0091 due to a count regime mismatch between training (running count) and evaluation (total countmap). This is a known limitation documented in the thesis.
+- The **Maturing segment** (6–50 interactions) collapses to NDCG@10 = 0.0091 due to a count regime mismatch between training (running count) and evaluation (total countmap). 
 - Evaluated on **MovieLens 1M only** — generalisation to other datasets has not been established.
 - Content anchor uses **title and genre only** — no plot synopsis, director, or cast.
 
