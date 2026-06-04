@@ -85,8 +85,4 @@ Runtime (inference / dashboard):
 - Training saves artifacts to `saved_model/` (see `train.py` paths). `app.py` expects those files to exist before launching.
 - Training uses a custom TensorFlow training loop (no `model.compile()`), so model saving/loading preserves custom layers via `@register_keras_serializable()`.
 
-**Where to look next**
-- Model implementation and layers: [model_logic.py](model_logic.py#L1-L400)
-- Training pipeline and saved artifact layout: [train.py](train.py#L1-L400)
-- Dashboard & visualisation: [app.py](app.py#L1-L200)
 
