@@ -93,7 +93,7 @@ DCAF is a six-input Factorization Machine with three parallel input paths:
 
 The `EMAFusionLayer` blends the content projection and interaction embedding:
 
-$$e_i(t) = \alpha(t) \times \text{content\_projection} + (1 - \alpha(t)) \times \text{interaction\_embedding}$$
+fused_vector = $\alpha(t) \cdot$ content_proj + $(1-\alpha(t))\cdot$ interaction_vec
 
 $$\alpha(t) = \frac{k}{k + t}$$
 
