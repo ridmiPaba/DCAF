@@ -90,5 +90,3 @@ Runtime (inference / dashboard):
 - Training pipeline and saved artifact layout: [train.py](train.py#L1-L400)
 - Dashboard & visualisation: [app.py](app.py#L1-L200)
 
-If you want, I can add a visual Mermaid diagram of the architecture to this README. Would you like that?
-# DCAF
