@@ -82,8 +82,7 @@ DCAF is a six-input Factorization Machine with three parallel input paths:
 - Both vectors are added → combined user representation (64-dim)
 
 **Content Path**
-- `movie_idx` → `ContentAnchorLayer` → frozen SBERT vector (384-dim)
-- → `Dense(64, linear)` → content projection (64-dim)
+- `movie_idx` → `ContentAnchorLayer` → frozen SBERT vector (384-dim) → `Dense(64, linear)` → content projection (64-dim)
 
 **Interaction Path**
 - `movie_idx` → `Embedding(3706, 64)` → interaction embedding (64-dim)
